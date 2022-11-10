@@ -1,0 +1,16 @@
+body {
+    background-color: lime;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+/*    transition: width 2s, height 2s;*/
+}
+
+.big {
+    height: 400px;
+    width: 400px;
+    border-radius: 0%;
+    transition: width 2s, height 2s;
+}
