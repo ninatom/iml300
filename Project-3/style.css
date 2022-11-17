@@ -14,3 +14,16 @@ img {
     border-radius: 0%;
     transition: width 2s, height 2s;
 }
+
+#placeholder1{
+    margin-right: auto;
+/*
+    height:auto;
+    width: auto;
+*/
+    position: static;
+  border: 3px solid #73AD21;
+    
+    
+    
+}
