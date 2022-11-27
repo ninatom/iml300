@@ -1,12 +1,18 @@
+/*---------PAGE 1--------*/
+
 body {
-    background-color: lime;
+    	margin: 0;
+	padding: 0;
+	background-color: #6F319C;
 }
 
+/*
 img {
     width: 200px;
     height: 200px;
-/*    transition: width 2s, height 2s;*/
+    transition: width 2s, height 2s;
 }
+*/
 
 .big {
     height: 400px;
@@ -16,38 +22,75 @@ img {
 }
 
 #placeholder1{
-/*
-    margin-right: auto;
-    height:auto;
-    width: auto;
-    position: static;
-  border: 3px solid #73AD21;
-*/
-    
-    width: 200px;
-  margin: auto;
-  border: 1px solid blue;
-    
-    
+
+    position: relative;
+	margin: 30 auto 0;
+	width: 800px;
+	height: 500px;
+    opacity: 50%;
+    }
+
+
+/*code take from https://codepen.io/Huhtamaki/pen/GPzwPY*/
+.store-frame {
+
+	position: relative;
+	margin: 30px auto 0;
+	width: 800px;
+	height: 500px;
+	background: linear-gradient(0deg, #000, #272727);
 }
 
-#placeholder3{
+.store-frame:before, .store-frame:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #FF6326, #00FEFE, #7ADB39,#FDFA2F, #ff0000, #00FEFE, #7ADB39,#FDFA2F, #FF6326);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
 /*
-    margin-right: auto;
-    height:auto;
-    width: auto;
-    position: static;
-  border: 3px solid #73AD21;
+blue
+#00FEFE
+
+green
+#7ADB39
+
+yellow
+#FDFA2F
+
+red
+#FF6326
+
+background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000);
+
 */
-    
-    width: 200px;
-  margin: auto;
-  border: 1px solid blue;
-    
-    
+
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.store-frame:after {
+	filter: blur(50px);
 }
 
 
+
+/*---------PAGE 2--------*/
 
 
 
@@ -55,3 +98,55 @@ img {
 #page-2-text{
     
 }
+
+
+
+
+
+
+
+
+/*---------PAGE 3--------*/
+
+/*code take from https://codepen.io/Huhtamaki/pen/GPzwPY*/
+
+
+
+/*
+.store-frame {
+	position: relative;
+	margin: 30px auto 0;
+	width: 500px;
+	height: 250px;
+	background: linear-gradient(0deg, #000, #272727);
+}
+
+.store-frame:before, .store-frame:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.store-frame:after {
+	filter: blur(50px);
+}*/
