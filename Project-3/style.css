@@ -1,19 +1,25 @@
 /*INDEX*/
 .bothshadow{
+    background-color: #e7e5e4;
+
     border: 1px solid green;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-  font-size: 92px;
-  padding: 80px 50px;
-  text-align: center;
+  
+  padding:10% 1% 10% 1%;
+/*  text-align: center;*/
 /*  text-transform: uppercase;*/
   text-rendering: optimizeLegibility;
 }
 
 .elegantshadow{
+    text-align: center;
+    font-size: 130px;
     border: 1px solid red;
      color: #131313;
     background-color: #e7e5e4;
-    letter-spacing: .15em;
+    padding:50px 10px 16px 10px;
+
+    letter-spacing: .12em;
     text-shadow: 
       1px -1px 0 #767676, 
       -1px 2px 1px #737272, 
@@ -47,11 +53,20 @@
     
 }
 
-
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
 .deepshadow{
-     border: 1px solid red;
+/*    color: none;*/
+/*  text-decoration: none;*/
+    
+    text-align: center;
+    font-size: 60px;
+     border: 1px solid blue;
      color: #e0dfdc;
     background-color: #333;
+    padding:40px 80px;
     letter-spacing: .1em;
     text-shadow: 
       0 -1px 0 #fff, 
