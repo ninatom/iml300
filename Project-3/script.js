@@ -1,7 +1,6 @@
 $(document).ready(function () {
     
-
-        $('#plantgif').click(function(){
+    $('#plantgif').click(function(){
         $('#ptxt').toggle();
      });
 
@@ -10,9 +9,23 @@ $(document).ready(function () {
 //  $('.infopanel').toggle(2000);     
         $(this).toggleClass("big");
     });
+    
 
+    
+    
 
+    
+
+    
+    
+    
+    
+    
+    
 });
+
+
+
 
 
 
