@@ -99,6 +99,7 @@ a {
 /*---------PAGE 1--------*/
 body{
     background-image: linear-gradient(to bottom right, #13057F, #6202DA);
+   
 }
 
 /*code from https://codepen.io/erikjung/pen/XdWEKE*/
@@ -108,8 +109,8 @@ body{
   text-align: center;
 }
 x-sign {
-  --interval: 1s;
   display: block;
+    --interval: 1s;
   text-shadow: 
     0 0 10px var(--color1),
     0 0 20px var(--color2),
@@ -355,6 +356,39 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 
 
 /*---------PAGE 3--------*/
+
+button:hover {
+  color: white;
+  background: #b19cd9;
+  border-radius: 100px;
+}
+
+.multi-button {
+  border-radius: 50px;
+  box-shadow: 0 0 15px 2px #b19cd9;
+  padding: 15px;
+  display: grid;
+  grid-gap: 0.5rem;
+}
+
+.HoverState {
+  color: #b19cd9;
+  font-family: Open Sans, sans-serif;
+  position: absolute;
+  right: 90px;
+  top: 25px;
+  font-weight: bold;
+}
+
+.buttonContainer {
+  position: relative;
+}
+
+
+
+
+
+
 
 /*code take from https://codepen.io/Huhtamaki/pen/GPzwPY*/
 

@@ -8,20 +8,78 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
+    
+     <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        button {
+            border: none;
+            font-size: 2rem;
+            transition: all .3s ease-in-out;
+            color: #b19cd9;
+            background: transparent;
+            cursor: pointer;
+            padding: 10px;
+        }
+        button:hover {
+  color: white;
+  background: #b19cd9;
+  border-radius: 100px;
+}
+
+    </style>
+    
+    
+    
+    
 </head>
 
 <body>
 
 
 
+<!--
     <h1>Homepage</h1>
 
     <div id="plantgif">
         <img src="asset/plant-2.gif" alt="">
     </div>
+-->
+    
+    <!-- partial:index.partial.html -->
+    <div class="multi-button">
+        <div class="buttonContainer">
+            <button class="hoverButton">
+                <i class="fas fa-cut"></i>
+            </button>
+            <div class="HoverState">Cut</div>
 
-
-
+        </div>
+        <div class="buttonContainer">
+            <button class="hoverButton">
+                <i class="fas fa-copy"></i>
+            </button>
+            <div class="HoverState">Copy</div>
+        </div>
+        <div class="buttonContainer">
+            <button class="hoverButton">
+                <i class="fas fa-paste"></i>
+            </button>
+            <div class="HoverState">Paste</div>
+        </div>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src="./script.js"></script>
+    
+ 
 
 
 </body>

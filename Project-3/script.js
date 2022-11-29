@@ -10,6 +10,16 @@ $(document).ready(function () {
         $(this).toggleClass("big");
     });
     
+    
+
+  $( ".hoverButton" ).mouseover(function() { 
+    $(".HoverState").hide();
+    $(this).next().show();
+});
+  $( ".hoverButton" ).mouseout(function() {
+    $(".HoverState").hide();
+});
+
 
     
     
