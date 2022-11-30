@@ -1,6 +1,4 @@
 $(document).ready(function () {
-//  $('#keyboard').click(function () {
-//  $('.infopanel').toggle(2000);     
 
     //    $('#plantgif').click(function(){
     //        $('#ptxt').toggle();
