@@ -8,8 +8,8 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
-    
-     <style>
+
+    <style>
         body {
             height: 100vh;
             margin: 0;
@@ -17,6 +17,7 @@
             place-items: center;
             max-width: 400px;
             margin: 0 auto;
+            background-image: linear-gradient(to bottom right, #e7e5e4, #e7e5e4);
         }
 
         button {
@@ -28,70 +29,110 @@
             cursor: pointer;
             padding: 10px;
         }
-        button:hover {
-  color: white;
-  background: #b19cd9;
-  border-radius: 100px;
-}
 
+        button:hover {
+            color: white;
+            background: #b19cd9;
+            border-radius: 100px;
+        }
     </style>
-    
-    
-    
-    
+
+
+
+
 </head>
 
 <body>
 
-    <div class="blue">
-        <div class="box1">
-            
-        </div>
-        
-        
+    <div class="chocolateclass">
+        <img id="chocolate" src="asset/chocolatebar.png" alt="">
+
+
+
+        <div id="box1"></div>
+        <div id="box2">hello</div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+        <div id="box5"></div>
+        <div id="box6"></div>
+        <div id="box7"></div>
+        <div id="box8"></div>
+<div id="box9"></div>
+<div id="box10"></div>
+<div id="box11"></div>
+<div id="box12"></div>
+<div id="box13"></div>
+<div id="box14"></div>
+   <div id="box15"></div>
+   <div id="box16"></div>
     </div>
 
 
 
 
 
-<!--
+
+    <!--
+    <div class="blue">
+        <div class="box1">
+        </div>
+    </div>
+-->
+
+
+
+
+
+    <!--
     <h1>Homepage</h1>
 
     <div id="plantgif">
         <img src="asset/plant-2.gif" alt="">
     </div>
 -->
-    
+
     <!-- partial:index.partial.html -->
     <div class="multi-button">
         <div class="buttonContainer">
-            <button class="hoverButton">
-                <i class="fas fa-cut"></i>
-            </button>
+            <button class="hoverButton" ><i class="fas fa-cut"><a href="index.html">
+                    
+            </a></i></button>
             <div class="HoverState">Home</div>
 
         </div>
         <div class="buttonContainer">
-            <button class="hoverButton">
+            <button class="hoverButton" onclick="myFunction()">
                 <i class="fas fa-copy"></i>
             </button>
             <div class="HoverState">About</div>
         </div>
         <div class="buttonContainer">
-            <button class="hoverButton">
+            <button class="hoverButton" onclick="myFunction2()">
                 <i class="fas fa-paste"></i>
             </button>
             <div class="HoverState">References</div>
         </div>
     </div>
+
+    <!--
+           <div class="chocolateclass">
+     <img id="chocolate" src="asset/chocolatebar.png" alt="">
+</div> 
+-->
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
     <script src="./script.js"></script>
-    
- 
+<script>
+function myFunction2() {
+  alert("REFERENCES");
+}
+</script>
+<script>
+function myFunction() {
+  alert("ABOUT SECTION");
+}
+</script>
 
 
-</body>
 
-</html>
+</body></html>
