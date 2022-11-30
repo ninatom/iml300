@@ -357,29 +357,33 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 
 /*---------PAGE 3--------*/
 
-button:hover {
-  color: white;
-  background: #b19cd9;
-  border-radius: 100px;
-}
+.blue {
+    background-color: blue;
+    left: 300px;
+    top: 150px;
+  }
 
+
+
+
+
+/*code from https://codepen.io/melaniexx/pen/MWYXpyp*/
 .multi-button {
-  border-radius: 50px;
+  border-radius: 60px;
   box-shadow: 0 0 15px 2px #b19cd9;
   padding: 15px;
   display: grid;
+    margin-left: 90%;
   grid-gap: 0.5rem;
 }
-
 .HoverState {
   color: #b19cd9;
   font-family: Open Sans, sans-serif;
   position: absolute;
-  right: 90px;
-  top: 25px;
+  right: 40px;
+  top: 5px;
   font-weight: bold;
 }
-
 .buttonContainer {
   position: relative;
 }
@@ -389,46 +393,3 @@ button:hover {
 
 
 
-
-/*code take from https://codepen.io/Huhtamaki/pen/GPzwPY*/
-
-
-
-/*
-.store-frame {
-	position: relative;
-	margin: 30px auto 0;
-	width: 500px;
-	height: 250px;
-	background: linear-gradient(0deg, #000, #272727);
-}
-
-.store-frame:before, .store-frame:after {
-	content: '';
-	position: absolute;
-	left: -2px;
-	top: -2px;
-	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
-		#0000ff, #00ff00,#ffff00, #ff0000);
-	background-size: 400%;
-	width: calc(100% + 4px);
-	height: calc(100% + 4px);
-	z-index: -1;
-	animation: steam 20s linear infinite;
-}
-
-@keyframes steam {
-	0% {
-		background-position: 0 0;
-	}
-	50% {
-		background-position: 400% 0;
-	}
-	100% {
-		background-position: 0 0;
-	}
-}
-
-.store-frame:after {
-	filter: blur(50px);
-}*/

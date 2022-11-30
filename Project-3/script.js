@@ -19,6 +19,15 @@ $(document).ready(function () {
   $( ".hoverButton" ).mouseout(function() {
     $(".HoverState").hide();
 });
+    
+    
+    
+    
+        $('.box1').hover(function () {
+        $('.box1').hide();
+    }, function () {
+        $('.box1').show();
+    });
 
 
     
