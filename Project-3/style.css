@@ -413,7 +413,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 */
 
 #box1 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 21px;
     margin-left: 48px;
@@ -424,68 +424,59 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box2 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 21px;
     margin-left: 287px;
     width: 158px;
-    height: 104px;
+    height: 106px;
     background-color: #5F3C37;
 }
 
 #box3 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 21px;
-    margin-left: 529px;
-    width: 158px;
-    height: 104px;
+    margin-left: 526px;
+    width: 166px;
+    height: 106px;
     background-color: #5F3C37;
 }
 
 #box4 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 21px;
     margin-left: 769px;
-    width: 158px;
-    height: 104px;
-    background-color: #5F3C37;
-}
-
-#box5 {
-    border: 1px solid blue;
-    position: absolute;
-    margin-top: 21px;
-    margin-left: 769px;
-    width: 158px;
-    height: 104px;
+    width: 161px;
+    height: 112px;
     background-color: #5F3C37;
 }
 
 
+
 #box5 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
-    margin-top: 204px;
-    margin-left: 45px;
-    width: 158px;
-    height: 102px;
+    margin-top: 205px;
+    margin-left: 43px;
+    width: 163px;
+    height: 103px;
     background-color: #5F3C37;
 }
 
 #box6 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
-    margin-top: 204px;
+    margin-top: 206px;
     margin-left: 286px;
-    width: 158px;
-    height: 102px;
+    width: 163px;
+    height: 104px;
     background-color: #5F3C37;
 }
 
 #box7 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 204px;
     margin-left: 529px;
@@ -495,17 +486,17 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box8 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 204px;
     margin-left: 770px;
-    width: 158px;
+    width: 160px;
     height: 102px;
     background-color: #5F3C37;
 }
 
 #box9 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 388px;
     margin-left: 44px;
@@ -515,67 +506,67 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box10 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 388px;
-    margin-left: 284px;
-    width: 158px;
+    margin-left: 282px;
+    width: 163px;
     height: 102px;
     background-color: #533028;
 }
 
 #box11 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 388px;
-    margin-left: 528px;
-    width: 158px;
+    margin-left: 526px;
+    width: 162px;
     height: 102px;
     background-color: #533028;
 }
 
 #box12 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 388px;
     margin-left: 769px;
-    width: 158px;
+    width: 161px;
     height: 102px;
     background-color: #533028;
 }
 
 #box13 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
-    margin-top: 568px;
+    margin-top: 570px;
     margin-left: 44px;
     width: 158px;
-    height: 102px;
+    height: 105px;
     background-color: #533028;
 }
 
 #box14 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 568px;
     margin-left: 285px;
     width: 158px;
-    height: 102px;
+    height: 103px;
     background-color: #533028;
 }
 
 #box15 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
-    margin-top: 568px;
+    margin-top: 570px;
     margin-left: 526px;
     width: 158px;
-    height: 102px;
+    height: 105px;
     background-color: #533028;
 }
 
 #box16 {
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 568px;
     margin-left: 768px;
