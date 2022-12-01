@@ -204,25 +204,20 @@ body {
 
 
 #placeholder1 {
-
     position: relative;
     margin: 30 auto 0;
     width: 800px;
     height: 500px;
     opacity: 50%;
 }
-
-
 /*code take from https://codepen.io/Huhtamaki/pen/GPzwPY*/
 .store-frame {
-
     position: relative;
     margin: 30px auto 0;
     width: 800px;
     height: 500px;
     background: linear-gradient(0deg, #000, #272727);
 }
-
 .store-frame:before,
 .store-frame:after {
     content: '';
@@ -236,7 +231,6 @@ body {
     z-index: -1;
     animation: steam 20s linear infinite;
 }
-
 /*
 blue
 #00FEFE
@@ -253,8 +247,6 @@ red
 background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000);
 
 */
-
-
 @keyframes steam {
     0% {
         background-position: 0 0;
@@ -283,9 +275,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 .glow-on-hover {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -299,9 +289,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
     cursor: pointer;
     position: relative;
     border-radius: 30px;
-
 }
-
 .glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -318,19 +306,15 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
-
 .glow-on-hover:active {
     color: #000
 }
-
 .glow-on-hover:active:after {
     background: transparent;
 }
-
 .glow-on-hover:hover:before {
     opacity: 1;
 }
-
 .glow-on-hover:after {
     z-index: -1;
     content: '';
@@ -342,7 +326,6 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
     top: 0;
     border-radius: 10px;
 }
-
 @keyframes glowing {
     0% {
         background-position: 0 0;
