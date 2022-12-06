@@ -10,8 +10,14 @@ $(document).ready(function () {
     //        $(this).toggleClass("big");
     //    });
 
-
-
+ $(function () {
+        $("#placeholder1").draggable();
+    }); 
+    
+$('button').click(function () {
+      $('.announcement').toggle();
+    });
+    
     $(".hoverButton").mouseover(function () {
         $(".HoverState").hide();
         $(this).next().show();
