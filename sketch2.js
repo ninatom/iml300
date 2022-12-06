@@ -35,9 +35,6 @@ function mousePressed() {
   paths.push(new Path());
 }
 
-function mouseReleased() {
-  painting = false;
-}
 class Path {
   constructor() {
     this.particles = [];

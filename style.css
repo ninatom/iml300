@@ -1,0 +1,28 @@
+body {
+/*     background-color: #2D2D2D;*/
+     font-family: 'Courier New', monospace;
+ }
+
+#link{
+/*    display:none;*/
+    color:66e2ec;
+}
+
+ #red {
+     color: #A9201B;
+ }
+
+ #work {
+     border: 1px solid blue;
+     color: aqua;
+ }
+
+ canvas {
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     display: block;
+     position: fixed;
+     z-index: -1;
+ }
