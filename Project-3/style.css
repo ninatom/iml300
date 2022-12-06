@@ -2,65 +2,49 @@
 
 /*code taken from https://codepen.io/juanbrujo/full/DBKxxM*/
 .bothshadow {
-    border: 1px solid green;
-    /*    background-color: #e7e5e4;*/
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     padding: 10% 10% 20% 10%;
-    /*  text-align: center;*/
-    /*  text-transform: uppercase;*/
     text-rendering: optimizeLegibility;
-
 }
 
 canvas {
     width: 100%;
     height: 100%;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     display: block;
     position: fixed;
     z-index: -1;
 }
 
-.button-example{
-background-color: #7C3486;
-    top:300px;
-    left:13px;
+.button-example {
+    background-color: #7C3486;
+    top: 300px;
+    left: 13px;
     padding-left: 40px;
     padding-right: 40px;
-     position: relative;
+    position: relative;
     color: aliceblue
-    
-    
 }
 
-
 .announcement {
-/*    border: 1px solid red;*/
     display: none;
     position: relative;
-/*    background: red;*/
-    /*    margin-top: 40px;*/
-    /*    font-size: 24px;*/
     padding: 6px;
-    width:45px;
-    top:54px;
-    left:380px;
+    width: 45px;
+    top: 54px;
+    left: 380px;
     text-align: center;
     font-size: 20px;
     color: purple
-    
 }
 
 .elegantshadow {
     text-align: center;
     font-size: 130px;
-/*    border: 1px solid red;*/
     color: #131313;
     background-color: #e7e5e4;
-/*    opacity:90%;*/
     padding: 50px 10px 16px 10px;
-
     letter-spacing: .12em;
     text-shadow:
         1px -1px 0 #767676,
@@ -92,7 +76,6 @@ background-color: #7C3486;
         -26px 52px 1px #dfdddc,
         -27px 54px 1px #e2e0df,
         -28px 56px 1px #e4e3e2;
-
 }
 
 a {
@@ -103,10 +86,9 @@ a {
 .deepshadow {
     /*    color: none;*/
     /*  text-decoration: none;*/
-
     text-align: center;
     font-size: 60px;
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     color: #e0dfdc;
     background-color: #5F3C37;
     padding: 40px 80px;
@@ -129,68 +111,55 @@ a {
         0 14px 0 #141414,
         0 15px 0 #121212,
         0 22px 30px rgba(0, 0, 0, 0.9);
-
-
 }
-
-
-
-
-
 
 /*---------PAGE 1--------*/
 body {
     /*    background-image: linear-gradient(to bottom right, #13057F, #6202DA);*/
-
 }
 
-#storeimage{
-/*    border: 1px solid red;*/
+#storeimage {
+    /*    border: 1px solid red;*/
     height: 500px;
     width: 800px;
     position: absolute;
-    
 }
 
-#mars{
-    top:165px;
-    left:645px;
-    border: 1px solid red;
-        height: 80px;
+#mars {
+    top: 165px;
+    left: 645px;
+    /*    border: 1px solid red;*/
+    height: 80px;
     width: 100px;
     position: relative;
 }
 
-#crunch{
-    top:165px;
-    left:590px;
-    border: 1px solid red;
-       height: 80px;
-    width: 100px;
-    position: relative; 
-}
-
-#hersheys{
-    top:36px;
-    left:360px;
-    border: 1px solid red;
-        height: 80px;
+#crunch {
+    top: 165px;
+    left: 590px;
+    /*    border: 1px solid red;*/
+    height: 80px;
     width: 100px;
     position: relative;
-    
 }
 
-#cartonly{
-/*    border: 1px solid red;*/
-    top:170px;
-    left:6px;
+#hersheys {
+    top: 36px;
+    left: 360px;
+    /*    border: 1px solid red;*/
+    height: 80px;
+    width: 100px;
+    position: relative;
+}
+
+#cartonly {
+    /*    border: 1px solid red;*/
+    top: 170px;
+    left: 6px;
     height: 204px;
     width: 326px;
     position: absolute;
-    
 }
-
-
 
 /*code from https://codepen.io/erikjung/pen/XdWEKE*/
 .sign {
@@ -228,27 +197,6 @@ x-sign:nth-of-type(1) {
     }
 }
 
-
-
-
-/*
-img {
-    width: 200px;
-    height: 200px;
-    transition: width 2s, height 2s;
-}
-*/
-
-/*
-.big {
-    height: 400px;
-    width: 400px;
-    border-radius: 0%;
-    transition: width 2s, height 2s;
-}
-*/
-
-
 $brown: #2b2520;
 $green: #39dbc2;
 $pink: #f41fbf;
@@ -257,7 +205,6 @@ $purple: #b028ff;
 $blue: #49A7FF;
 $red: #ff3838;
 $orange: #db7953;
-
 $extra-large: 110px;
 $large: 84px;
 
@@ -266,7 +213,6 @@ $large: 84px;
 *:after {
     box-sizing: border-box;
 }
-
 
 @mixin center {
     display: flex;
@@ -282,15 +228,6 @@ body {
     background-color: $brown;
     @include center;
 }
-
-
-
-
-
-
-
-
-
 
 #placeholder1 {
     position: relative;
@@ -323,22 +260,6 @@ body {
     animation: steam 20s linear infinite;
 }
 
-/*
-blue
-#00FEFE
-
-green
-#7ADB39
-
-yellow
-#FDFA2F
-
-red
-#FF6326
-
-background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000);
-
-*/
 @keyframes steam {
     0% {
         background-position: 0 0;
@@ -356,11 +277,6 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 .store-frame:after {
     filter: blur(50px);
 }
-
-
-
-
-
 
 /*code from https://codepen.io/kocsten/pen/rggjXp*/
 .nextbutton {
@@ -439,36 +355,31 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
     }
 }
 
-
-
-
-
 /*---------PAGE 2--------*/
-
-
-
-
 #page-2-text {}
-.bg-2{
+
+.bg-2 {
     padding: 30px;
 }
-.centerText{
+
+.centerText {
     text-align: center;
 }
+
 summary {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     width: 400px;
     line-height: 1.4;
     padding: 20px;
-    margin:10px;
+    margin: 10px;
     background: #5F3C37;
-    color:aliceblue;
-
+    color: aliceblue;
 }
 
-details{
-/*  border: 1px solid red;  */
+details {
+    /*  border: 1px solid red;  */
 }
+
 details > summary {
     list-style: none;
 }
@@ -478,58 +389,36 @@ details > summary::-webkit-details-marker {
 }
 
 /*---------PAGE 3--------*/
-
-
-
-
 .chocolateclass {
-    border: 1px solid green;
+    /*    border: 1px solid green;*/
     height: 700px;
     width: 950px;
     display: grid;
     grid-gap: 50px 100px;
-
 }
 
 #chocolate {
-    border: 1px solid red;
+    /*    border: 1px solid red;*/
     height: 700px;
     width: 950px;
     position: relative;
-
 }
-
-
-
-
-
-/*
-.blue {
-        width: 200px;
-    height: 200px;
-    display:inline-block;
-    margin-right: 10px;
-    background-color: white;
-
-  }
-*/
 
 #box1 {
     /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 24px;
-    margin-left: 46px;
+    margin-left: 45px;
     width: 156px;
     height: 101px;
     background-color: #5F3C37;
-
 }
 
 #box2 {
     /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 21px;
-    margin-left: 287px;
+    margin-left: 286px;
     width: 161px;
     height: 106px;
     background-color: #5F3C37;
@@ -539,7 +428,7 @@ details > summary::-webkit-details-marker {
     /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 21px;
-    margin-left: 526px;
+    margin-left: 525px;
     width: 166px;
     height: 106px;
     background-color: #5F3C37;
@@ -554,8 +443,6 @@ details > summary::-webkit-details-marker {
     height: 112px;
     background-color: #5F3C37;
 }
-
-
 
 #box5 {
     /*    border: 1px solid blue;*/
@@ -651,7 +538,7 @@ details > summary::-webkit-details-marker {
     /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 568px;
-    margin-left: 285px;
+    margin-left: 283px;
     width: 158px;
     height: 103px;
     background-color: #533028;
@@ -677,8 +564,7 @@ details > summary::-webkit-details-marker {
     background-color: #533028;
 }
 
-
-/*code from https://codepen.io/melaniexx/pen/MWYXpyp*/
+/*code taken from https://codepen.io/melaniexx/pen/MWYXpyp*/
 .multi-button {
     border-radius: 60px;
     box-shadow: 0 0 15px 2px #b19cd9;

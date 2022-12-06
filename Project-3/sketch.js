@@ -4,7 +4,7 @@ function setup() {
 
 function draw() {
     background(231, 229, 228);
-    
+
     fill(148, 47, 7);
     for (let col = 0; col <= width; col += 60) {
         for (let row = 0; row <= height; row += 60) {
