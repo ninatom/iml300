@@ -11,7 +11,9 @@ $(document).ready(function () {
     //    });
 
  $(function () {
-        $("#placeholder1").draggable();
+        $("#mars").draggable();
+     $("#hersheys").draggable();
+     $("#crunch").draggable();
     }); 
     
 $('button').click(function () {
