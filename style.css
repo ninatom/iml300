@@ -3,14 +3,32 @@ body {
      font-family: 'Courier New', monospace;
  }
 
-#link{
-/*    display:none;*/
-    color:66e2ec;
+a {
+    color: inherit;
+/*    color: antiquewhite;*/
+/*    text-decoration: inherit;*/
 }
+
+.summary{
+    color: #A9201B;
+    padding:20px;
+    background-color:#2D2D2D;
+}
+
 
  #red {
      color: #A9201B;
  }
+
+#read{
+    left:40px;
+    padding:10px;
+    display:block;
+}
+#white{
+    font-size: 12px;
+    color:antiquewhite;
+}
 
  #work {
      border: 1px solid blue;
