@@ -123,6 +123,16 @@ body {
 
 }
 
+.storeimage{
+    border: 1px solid red;
+    height: 70px;
+    width: 95px;
+    position: relative;
+    
+}
+
+
+
 /*code from https://codepen.io/erikjung/pen/XdWEKE*/
 .sign {
     font-size: calc(2em + 1vmax);
