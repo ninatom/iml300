@@ -461,7 +461,8 @@ summary {
     line-height: 1.4;
     padding: 20px;
     margin:10px;
-    background: coral;
+    background: #5F3C37;
+    color:aliceblue;
 
 }
 
@@ -516,10 +517,10 @@ details > summary::-webkit-details-marker {
 #box1 {
     /*    border: 1px solid blue;*/
     position: absolute;
-    margin-top: 21px;
-    margin-left: 48px;
-    width: 158px;
-    height: 104px;
+    margin-top: 24px;
+    margin-left: 46px;
+    width: 156px;
+    height: 101px;
     background-color: #5F3C37;
 
 }
@@ -529,7 +530,7 @@ details > summary::-webkit-details-marker {
     position: absolute;
     margin-top: 21px;
     margin-left: 287px;
-    width: 158px;
+    width: 161px;
     height: 106px;
     background-color: #5F3C37;
 }
@@ -639,10 +640,10 @@ details > summary::-webkit-details-marker {
 #box13 {
     /*    border: 1px solid blue;*/
     position: absolute;
-    margin-top: 570px;
-    margin-left: 44px;
-    width: 158px;
-    height: 105px;
+    margin-top: 572px;
+    margin-left: 37px;
+    width: 168px;
+    height: 100px;
     background-color: #533028;
 }
 
