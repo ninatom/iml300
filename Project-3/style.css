@@ -3,7 +3,7 @@
 /*code taken from https://codepen.io/juanbrujo/full/DBKxxM*/
 .bothshadow {
     border: 1px solid green;
-    background-color: #e7e5e4;
+    /*    background-color: #e7e5e4;*/
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
     padding: 10% 10% 20% 10%;
     /*  text-align: center;*/
@@ -12,12 +12,32 @@
 
 }
 
+canvas {
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    display: block;
+    position: fixed;
+    z-index: -1;
+}
+
+
+.announcement {
+    display: none;
+    background: yellow;
+    /*    margin-top: 40px;*/
+    /*    font-size: 24px;*/
+    padding: 6px;
+}
+
 .elegantshadow {
     text-align: center;
     font-size: 130px;
-    border: 1px solid red;
+/*    border: 1px solid red;*/
     color: #131313;
     background-color: #e7e5e4;
+/*    opacity:90%;*/
     padding: 50px 10px 16px 10px;
 
     letter-spacing: .12em;
@@ -65,9 +85,9 @@ a {
 
     text-align: center;
     font-size: 60px;
-    border: 1px solid blue;
+/*    border: 1px solid blue;*/
     color: #e0dfdc;
-    background-color: #333;
+    background-color: #5F3C37;
     padding: 40px 80px;
     letter-spacing: .1em;
     text-shadow:
@@ -99,7 +119,7 @@ a {
 
 /*---------PAGE 1--------*/
 body {
-    background-image: linear-gradient(to bottom right, #13057F, #6202DA);
+    /*    background-image: linear-gradient(to bottom right, #13057F, #6202DA);*/
 
 }
 
@@ -210,6 +230,7 @@ body {
     height: 500px;
     opacity: 50%;
 }
+
 /*code take from https://codepen.io/Huhtamaki/pen/GPzwPY*/
 .store-frame {
     position: relative;
@@ -218,6 +239,7 @@ body {
     height: 500px;
     background: linear-gradient(0deg, #000, #272727);
 }
+
 .store-frame:before,
 .store-frame:after {
     content: '';
@@ -231,6 +253,7 @@ body {
     z-index: -1;
     animation: steam 20s linear infinite;
 }
+
 /*
 blue
 #00FEFE
@@ -276,6 +299,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
     justify-content: center;
     align-items: center;
 }
+
 .glow-on-hover {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -290,6 +314,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
     position: relative;
     border-radius: 30px;
 }
+
 .glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -306,15 +331,19 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
+
 .glow-on-hover:active {
     color: #000
 }
+
 .glow-on-hover:active:after {
     background: transparent;
 }
+
 .glow-on-hover:hover:before {
     opacity: 1;
 }
+
 .glow-on-hover:after {
     z-index: -1;
     content: '';
@@ -326,6 +355,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
     top: 0;
     border-radius: 10px;
 }
+
 @keyframes glowing {
     0% {
         background-position: 0 0;
@@ -350,12 +380,31 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 
 
 #page-2-text {}
-
-.summary{
-    border: 1px solid blue;
+.bg-2{
+    padding: 30px;
+}
+.centerText{
+    text-align: center;
+}
+summary {
+/*    border: 1px solid blue;*/
     width: 400px;
     line-height: 1.4;
+    padding: 20px;
+    margin:10px;
+    background: coral;
 
+}
+
+details{
+/*  border: 1px solid red;  */
+}
+details > summary {
+    list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+    display: none;
 }
 
 /*---------PAGE 3--------*/
@@ -396,7 +445,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 */
 
 #box1 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 21px;
     margin-left: 48px;
@@ -407,7 +456,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box2 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 21px;
     margin-left: 287px;
@@ -417,7 +466,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box3 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 21px;
     margin-left: 526px;
@@ -427,7 +476,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box4 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 21px;
     margin-left: 769px;
@@ -439,7 +488,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 
 
 #box5 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 205px;
     margin-left: 43px;
@@ -449,7 +498,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box6 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 206px;
     margin-left: 286px;
@@ -459,7 +508,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box7 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 204px;
     margin-left: 529px;
@@ -469,7 +518,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box8 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 204px;
     margin-left: 770px;
@@ -479,7 +528,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box9 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 388px;
     margin-left: 44px;
@@ -489,7 +538,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box10 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 388px;
     margin-left: 282px;
@@ -499,7 +548,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box11 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 388px;
     margin-left: 526px;
@@ -509,7 +558,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box12 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 388px;
     margin-left: 769px;
@@ -519,7 +568,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box13 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 570px;
     margin-left: 44px;
@@ -529,7 +578,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box14 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 568px;
     margin-left: 285px;
@@ -539,7 +588,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box15 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 570px;
     margin-left: 526px;
@@ -549,7 +598,7 @@ background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #
 }
 
 #box16 {
-/*    border: 1px solid blue;*/
+    /*    border: 1px solid blue;*/
     position: absolute;
     margin-top: 568px;
     margin-left: 768px;
