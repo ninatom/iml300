@@ -1,3 +1,5 @@
+//code taken from https://p5js.org/examples/hello-p5-drawing.html
+
 let paths = [];
 let painting = false;
 let next = 0;

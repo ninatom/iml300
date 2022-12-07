@@ -20,10 +20,19 @@ a {
      color: #A9201B;
  }
 
+
+
 #read{
     left:40px;
     padding:10px;
-    display:block;
+
+}
+details > summary {
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display:none;
 }
 #white{
     font-size: 12px;
